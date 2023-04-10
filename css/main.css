@@ -14,7 +14,6 @@ header{
 }
 
 .logo{
-    width: 2;
     color: white;
     padding-left: 50px;
     padding-top: 50px;
@@ -22,7 +21,7 @@ header{
 
 .nav-con{
     width: 550px;
-    float: left;
+    float: right;
     height: 50px;
 }
 
@@ -35,8 +34,12 @@ header{
     height: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-right: 10px;
-    padding-top: 8px;
+}
+
+.col-4{
+    width: 50%;
+    height: 330px ;
+    padding-top: 60px;
 }
 
 .col-box{
@@ -45,4 +48,53 @@ header{
     background-color: lightgrey;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.h3{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-left: 122px;
+    padding-right: 122px;
+
+}
+
+.button-group{
+    width: 400px;
+    height: 50px;
+ }
+
+.button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.normal{
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+.normal:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+
+.inverted{
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+
+.inverted:hover{
+    cursor: pointer;
+    background-color: #2b2b2b;
+    color: white;
+
 }
